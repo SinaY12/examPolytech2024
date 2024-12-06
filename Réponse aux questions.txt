@@ -1,0 +1,18 @@
+16. 
+Docker est un logiciel permettant la gestion de conteneurs, ceux-ci permettant d'enfermer une application (son code, ses dépendances et toutes ses configuration dans un environnement isolé.
+Docker est beaucoup utilisé dans le domaine du développement car il permet d'exécuter une application dans n'importe quel environnement car tout ce dont a besoin l'application se trouve dans le conteneur, chaque conteneur fonctionne indépendamment, ce qui permet d'éviter que des applications de deux conteneurs différents rentrent en conflit. Il permet donc souvent de simplifier le déploiement d'application et permet une meilleure gestion des ressources.
+
+17.
+Le but de l'intégration continue (CI) est de pouvoir automatiser le processus de fusion de code dans une branche partagée entre plusieurs développeurs et d'effectuer automatiquement les tests pour que le projet fonctionne.
+Le déploiement continu (CD) permet de faire en sorte de tout le temps préparer le code pour qu'il soit prêt à être déployer à tout moment.
+La CI/CD est utile pour de nombreux points, elle permet un déploiement plus rapide, avec moins d'erreurs. Elle permet aussi une meilleure collaboration entre collègues, et améliore donc la productivité.
+
+18.
+Le cours était vraiment bien. Il était très bien structuré et l'alternance entre cours et application du cours m'a permis de suivre avec intéressement et de ne pas avoir lâché malgré tous les bugs de mon ordinateur.
+
+19.
+Je vous remercie pour votre cours qui m'a permis d'en apprendre vraiment vraiment vraiment beaucoup sur le principe de conteneurisation que j'ai découvert avec votre cours. J'effectue mon alternance dans le domaine des réseaux, je m'y connais très peu en dev et votre cours était une vraie découverte malgré mon ordinateur qui ne permet pas de faire tourner IntelliJ et Docker en même temps.
+Je suis désolé de ne pas pouvoir vous rendre plus que ça pour ce devoir mais j'ai fait mon maximum pour au final ne pas réussir à résoudre les erreurs que j'ai eu.
+A l'heure où j'écris ça, mon ordi est entrain de "build" depuis 2600 secondes et me permet seulement d'écrire un mot par minute :)
+
+MERCI !

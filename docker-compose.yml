@@ -1,0 +1,35 @@
+version: "3.9"
+
+networks:
+    network:
+volumes:
+    database:
+
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysqldb
+    environment:
+      MYSQL_DB: DB
+      MYSQL_USER: DBuser 
+      MYSQL_PASSWORD: DBpassword     
+    ports:
+      - "3306:3306"
+    volumes:
+      - database:/var/lib/mysql         
+
+back:
+  image: imjava
+  build:
+    context: java
+    dockerfile: Dockerfile
+      container_name: java
+    environment:
+      SPRING_DATASOURCE_URL: 
+      SPRING_DATASOURCE_USERNAME: DBuser
+      SPRING_DATASOURCE_PASSWORD: DBpassword
+    ports:
+      - 8080:8080
+    networks:
+      - network
+
